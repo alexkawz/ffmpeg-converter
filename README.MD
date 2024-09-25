@@ -2,11 +2,11 @@
 
 This is for converting wav/mp4 to mp3 files using ffmpeg
 
-You must have ffmpeg installed to run the script
+You must have FFmpeg installed to run the script
 
-[ffmpeg Website](https://ffmpeg.org/)
+[FFmpeg Website](https://ffmpeg.org/)
 
-## Installing ffmpeg
+## Installing FFmpeg
 
 ### Linux
 

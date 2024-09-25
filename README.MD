@@ -1,6 +1,6 @@
 # Overkill Converter
 
-## My First Bash Script Dont't hate me
+### My first Bash script don't hate me
 
 This is for converting wav/mp4 to mp3 files using ffmeg
 

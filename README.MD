@@ -47,6 +47,6 @@ chmod -x ffmeg-converter.sh
 ```
 ./audio-converter.sh
 ```
-#### notes
+## Notes
 - You will need to enter m4a or wav on the first prompt. Its case sensitive
 - Do not enter the file type when asking for the name the script will add the correct filetype

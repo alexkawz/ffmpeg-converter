@@ -50,3 +50,4 @@ chmod -x ffmeg-converter.sh
 ## Notes
 - You will need to enter m4a or wav on the first prompt. Its case sensitive
 - Do not enter the file type when asking for the name the script will add the correct filetype
+- Put the filename in the directory that you have the script in

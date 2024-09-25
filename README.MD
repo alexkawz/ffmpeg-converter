@@ -8,31 +8,31 @@ You must have ffmeg installed to run the script
 
 [ffmpeg Website](https://ffmpeg.org/)
 
-# Installing ffmpeg
+## Installing ffmpeg
 
-## Linux
+### Linux
 
-### Debian
+#### Debian
 
 ```
 sudo apt install ffmpeg
 ```
 
-### Fedora
+#### Fedora
 
 ```
 sudo dnf install ffmpeg
 ```
 
-### Arch btw
+#### Arch btw
 
 ```
 sudo pacman -s ffmpeg
 ```
 
-## Mac OS
+### Mac OS
 
-### Installing ffmeg using Brew
+#### Installing ffmeg using Brew
 
 ```
 brew install ffmpeg

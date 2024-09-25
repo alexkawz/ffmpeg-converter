@@ -19,7 +19,7 @@ Echo "
 echo "What file type are you trying to convert?"
 echo "1. M4A"
 echo "2. WAV"
-read -p "Enter m4a or wav (no caps): " source_file
+read -p "Enter 1 or 2: " source_file
 
 #Prompt the user for the input filename
 read -p "Enter in the input filename: " input_file
@@ -28,9 +28,8 @@ read -p "Enter in the input filename: " input_file
 read -p "Enter in the output filename: " output_file
 
 #M4a
-if [ "$source_file" = "m4a" ]; then
+if [ "$source_file" == "1" ]; then
 	Echo "
-
    ____                          _   _                   
   / ___|___  _ ____   _____ _ __| |_(_)_ __   __ _       
  | |   / _ \|  _ \ \ / / _ \  __| __| |  _ \ / _  |      
@@ -39,8 +38,17 @@ if [ "$source_file" = "m4a" ]; then
                                              |___/       
 "
 	ffmpeg -i "$input_file".m4a -acodec libmp3lame -ab 320k "$output_file".mp3
+	Echo "
 
-elif [ "$source_file" = "wav" ]; then
+   ____                      _      _           _ 
+  / ___|___  _ __ ___  _ __ | | ___| |_ ___  __| |
+ | |   / _ \|  _   _ \|  _ \| |/ _ \ __/ _ \/ _  |
+ | |__| (_) | | | | | | |_) | |  __/ ||  __/ (_| |
+  \____\___/|_| |_| |_| .__/|_|\___|\__\___|\__,_|
+                      |_|                         
+"
+
+elif [ "$source_file" == "2" ]; then
 	Echo "
 
    ____                          _   _                   
@@ -52,7 +60,16 @@ elif [ "$source_file" = "wav" ]; then
 
 "
 	ffmpeg -i "$input_file".wav -vn -ar 44100 -ac 2 -b:a 192k "$output_file".mp3
+	Echo "
+
+   ____                      _      _           _ 
+  / ___|___  _ __ ___  _ __ | | ___| |_ ___  __| |
+ | |   / _ \|  _   _ \|  _ \| |/ _ \ __/ _ \/ _  |
+ | |__| (_) | | | | | | |_) | |  __/ ||  __/ (_| |
+  \____\___/|_| |_| |_| .__/|_|\___|\__\___|\__,_|
+                      |_|                         
+"
 
 else
-	echo "Invalid Option. Please enter m4a or wav"
+	echo "Invalid Option. Please enter 1 or 2."
 fi

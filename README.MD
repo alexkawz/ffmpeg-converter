@@ -1,6 +1,6 @@
 # Overkill Converter
 
-This is for converting wav/mp4 to mp3 files using ffmpeg
+This is for converting wav/mp4 to mp3 files using FFmpeg
 
 You must have FFmpeg installed to run the script
 
@@ -41,13 +41,13 @@ brew install ffmpeg
 ### Make the file executable
 
 ```
-chmod -x ffmeg-converter.sh
+chmod -x audio-converter.sh
 ```
 ### Running the file
 ```
 ./audio-converter.sh
 ```
 ## Notes
-- You will need to enter m4a or wav on the first prompt. Its case sensitive
-- Do not enter the file type when asking for the name the script will add the correct filetype
-- Put the filename in the directory that you have the script in
+- You will need to enter m4a or wav on the first prompt. Its case sensitive.
+- Do not enter the file type when asking for the name the script will add the correct filetype.
+- Put the filename in the directory that you have the script in.

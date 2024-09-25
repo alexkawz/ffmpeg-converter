@@ -43,3 +43,8 @@ brew install ffmpeg
 ```
 chmod -x ffmeg-converter.sh
 ```
+### Running the file
+```
+./ffmpeg-converter.sh
+```
+

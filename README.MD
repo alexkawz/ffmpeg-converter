@@ -41,7 +41,7 @@ brew install ffmpeg
 ### Make the file executable
 
 ```
-chmod -x audio-converter.sh
+chmod u+x audio-converter.sh
 ```
 ### Running the file
 ```
